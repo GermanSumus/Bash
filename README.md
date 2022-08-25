@@ -2,4 +2,4 @@
 A few bash scripts, nothing fancy
 
 #### Run Script
-Uhg I don't really know yet, find it and run it with ./FILE_NAME that's my best guess for now
+Need to provide the command chmod u+x FILE_NAME to give user executable rights. Then use ./FILE_NAME. I'll probably move files to a path file eventually to make it more simple.
