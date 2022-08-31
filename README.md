@@ -1,5 +1,8 @@
 # Bash
 A few bash scripts, nothing fancy
 
-#### Run Script
-Need to provide the command chmod a+x FILE_NAME to give all user executable rights. Then use ./FILE_NAME. Moved files into PATH to execute scripts with just FILE_NAME.
+## How to use scripts
+In order to run the bash scripts each one needs to be given executable rights. You can do so with `chmod a+x FileName` not sure if this is the best way to do it but it's been working for now. You can run the command by using `./FileName` with in the current directory.
+
+If you want to be able to run the scripts from anywhere you can move the scripts into your PATH, preferably in /usr/local/bin. Might need to be done as superuser.
+
